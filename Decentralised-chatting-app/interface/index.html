@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Chat Interface Concept</title>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+
+<script src="https://use.typekit.net/hoy3lrg.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="frame">
+	<div id="sidepanel">
+		<div id="profile">
+			<div class="wrap">
+				<img id="profile-img" src="https://wallpapers-clan.com/wp-content/uploads/2023/01/aesthetic-anime-girl-pfp-7.jpg" class="online" alt="" />
+				<p>User</p>
+				<i class="fa fa-chevron-down expand-button" aria-hidden="true"></i>
+				<div id="status-options">
+					<ul>
+						<li id="status-online" class="active"><span class="status-circle"></span> <p>Wallet Details</p></li>
+						<li id="status-away"><span class="status-circle"></span> <p>View Collection</p></li>
+						<li id="status-busy"><span class="status-circle"></span> <p>Change Network</p></li>
+						<li id="status-offline"><span class="status-circle"></span> <p>Logout</p></li>
+					</ul>
+				</div>
+				<div id="expanded">
+					<label for="twitter"><i class="fa-wallet" aria-hidden="true"></i></label>
+					<input name="twitter" type="text" value="0x43ABEf309D8972C17205EDa74D79239bf8F916ae" />
+					<label for="twitter"><i class="fa fa-fa-fw" aria-hidden="true"></i></label>
+					<input name="twitter" type="text" value="Ethereum Mainnet" />
+				
+				</div>
+			</div>
+		</div>
+		<div id="search">
+			<label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+			<input type="text" placeholder="Search Communities..." />
+		</div>
+		<div id="contacts">
+			<ul>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status online"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Dragon Ball NFT Community</p>
+							<p class="preview">The New Brolly NFT just Dropped!! Dope af!!</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact active">
+					<div class="wrap">
+						<span class="contact-status busy"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Game of Thrones NFT Community</p>
+							<p class="preview">Hello everyone! I just Bought the New "Ruler of the seven Kingdoms" NFT and joined the community.</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status away"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">JOJO's Bizzare Adventures NFT Community</p>
+							<p class="preview">The New Dio-sama NFT looks Dope doesn't it</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status online"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Paninian India Pvt. Ltd</p>
+							<p class="preview"> Townhall Meeting on Tuesday </p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status busy"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">IIIT Jabalpur College</p>
+							<p class="preview">Midsem Marks</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Pokemon NFT Community</p>
+							<p class="preview">I have got all the 823 Pikachu NFTs</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Jujutsu Kaisen NFT Community</p>
+							<p class="preview">"Gojo Satoru is Dead" NFT collection just launched</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status busy"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">BEN 10 NFT Community</p>
+							<p class="preview">Its's Hero Time</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Naruto NFT Community</p>
+							<p class="preview">Dattebayo</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status"></span>
+						<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+						<div class="meta">
+							<p class="name">Beyblade NFT Community</p>
+							<p class="preview"><span>You:</span> I am up for a battle.</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="bottom-bar">
+			<button id="addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i> <span>Mint NFT Batch</span></button>
+			<button id="settings"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> <span>Settings</span></button>
+		</div>
+	</div>
+	<div class="content">
+		<div class="contact-profile">
+			<img src="https://s6.postimg.cc/9oa61bvy9/Regular_Noise0.png" alt="" />
+			<p>Game of Thrones NFT Community</p>
+			
+		</div>
+		<div class="messages">
+			<ul>
+				<li class="sent">
+					<img src="https://i.pinimg.com/originals/4a/92/2e/4a922e859160c990f67814bad156f89f.jpg" alt="" />
+					<p>Hello everyone! I just Bought the New "Ruler of the seven Kingdoms" NFT and joined the community.</p>
+				</li>
+				<li class="sent">
+					<img src="https://e1.pxfuel.com/desktop-wallpaper/28/329/desktop-wallpaper-✓-anime-aesthetic-pfp-boy-in-2020-aesthetic-pfp.jpg" alt="" />
+					<p>Hi! Welcome to the community, we are having a meetup next week at the Yatch House. Hope to see you there.</p>
+				</li>
+				<li class="sent">
+					<img src="https://i.pinimg.com/originals/4a/92/2e/4a922e859160c990f67814bad156f89f.jpg" alt="" />
+					<p>Really? Its good that I bought the NFT and got access to the community. Otherwise I could have missed it.</p>
+				</li>
+				<li class="sent">
+					<img src="https://cutewallpaper.org/21/anime-wallpaper-free-download/4k-Anime-Wallpaper-Engine-Free-Download-Wallpaper-Engine-.jpg" alt="" />
+					<p>Does anyone know when the community owner is gonna drop the new "GOT Books NFT Collection" batch, I wanna buy it and get access to the exclusive Community ASAP.</p>
+				</li>
+				<li class="replies">
+					<img src="https://wallpapers-clan.com/wp-content/uploads/2023/01/aesthetic-anime-girl-pfp-7.jpg" alt="" />
+					<p>I heard its gonna be next week.</p>
+				</li>
+				<li class="replies">
+					<img src="https://wallpapers-clan.com/wp-content/uploads/2023/01/aesthetic-anime-girl-pfp-7.jpg" alt="" />
+					<p>But I wont give my word for it.</p>
+				</li>
+				<li class="sent">
+					<img src="https://cutewallpaper.org/21/anime-wallpaper-free-download/4k-Anime-Wallpaper-Engine-Free-Download-Wallpaper-Engine-.jpg" alt="" />
+					<p>That would be awesome if it will be next week.</p>
+				</li>
+				<li class="replies">
+					<img src="https://wallpapers-clan.com/wp-content/uploads/2023/01/aesthetic-anime-girl-pfp-7.jpg" alt="" />
+					<p>Yeah. Totally.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="message-input">
+			<div class="wrap">
+			<input type="text" placeholder="Write your message..." />
+			<i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+			<button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
